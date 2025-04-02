@@ -27,5 +27,14 @@
 #include "imgui_impl_dx12.h"
 #include "imgui_impl_win32.h"
 
+#include <stdexcept>
+
+#include <sstream>
+#include <string>
+
+#pragma comment(lib, "d3d12.lib")
+#pragma comment(lib, "dxgi.lib")
+#pragma comment(lib, "d3dcompiler.lib")
+#pragma comment(lib, "dxguid.lib")
 
 using Microsoft::WRL::ComPtr;
