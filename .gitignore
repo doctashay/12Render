@@ -1,0 +1,12 @@
+
+.vs/12Render/v17/
+
+*.vsidx
+
+x64/Release/
+
+x64/Debug/
+
+12Render/x64/Release/
+
+12Render/x64/Debug/
